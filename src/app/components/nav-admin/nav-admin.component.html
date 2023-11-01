@@ -1,0 +1,8 @@
+<header>
+  <nav class="navegacion">
+    <div class="user">{{getUser?.user}}</div>
+    <a routerLink="home">Inicio</a>
+    <a routerLink="/private">Private</a>
+    <a (click)="onLogOut()" class="logout">LogOut</a>
+  </nav>
+</header>
